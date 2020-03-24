@@ -45,8 +45,7 @@ public class MaquinaService {
                  .build();
     }
 
-
-        public GraphQL getGraphQL() {
+    public GraphQL getGraphQL() {
         return graphQL;
     }
 
