@@ -1,0 +1,15 @@
+schema {
+ query: Query
+}
+
+type Query {
+ allMaquinas: [Maquina]
+}
+
+type Maquina {
+  id: Long
+  ano: String
+  descricao: String
+  marca: String
+  modelo: String
+}
